@@ -8,7 +8,7 @@ function setup() {
   campoSalario.position(360, 180);
   campoSalario.attribute("placeholder", "Salário Mensal");
   let button1 = createButton("Calcular");
-  button1.position(410, 240);
+  button1.position(410, 600);
   button1.mousePressed(PegaValoresImposto);
 
   // Calculadora de Investimento
