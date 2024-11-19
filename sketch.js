@@ -2,8 +2,7 @@ let campoSalario, s, i, INSS;
 let campoPatrimonio, campoCusto, campoInvest, campoInfl, campoTempo, p, c, i2, f, t, j, montante;
 
 function setup() {
-  let canvas1 = createCanvas(600, 350);
-
+  
   // Calculadora de Imposto
   campoSalario = createInput();
   campoSalario.position(360, 180);
