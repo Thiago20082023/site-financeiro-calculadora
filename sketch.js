@@ -2,14 +2,13 @@ let campoSalario, s, i, INSS;
 let campoPatrimonio, campoCusto, campoInvest, campoInfl, campoTempo, p, c, i2, f, t, j, montante;
 
 function setup() {
-  let canvas1 = createCanvas(600, 350);
-
+  
   // Calculadora de Imposto
   campoSalario = createInput();
-  campoSalario.position(360, 180);
+  campoSalario.position(360, 500);
   campoSalario.attribute("placeholder", "Salário Mensal");
   let button1 = createButton("Calcular");
-  button1.position(410, 240);
+  button1.position(410, 600);
   button1.mousePressed(PegaValoresImposto);
 
   // Calculadora de Investimento
